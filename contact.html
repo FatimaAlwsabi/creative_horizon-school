@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101b35">
+    <title>تواصل معنا | أفق الإبداع</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Manrope:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">أ</span><span><b>أفق
+                    الإبداع</b><small>مدرسة تصنع الفرق</small></span></a><button class="menu-toggle"
+            aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="nav"><a href="index.html">الرئيسية</a><a href="about.html">من نحن</a><a
+                href="departments.html">الأقسام</a><a class="active" href="contact.html">تواصل معنا</a><a
+                class="nav-cta" href="#admission">ابدأ رحلتك <span>↗</span></a></nav>
+    </header>
+    <main>
+        <section class="inner-hero contact-hero">
+            <div class="inner-hero-content reveal"><span class="eyebrow"><span class="eyebrow-dot"></span> يسعدنا أن
+                    نسمع منك</span>
+                <h1>لنبدأ <span class="gradient-text">حديثًا جميلًا.</span></h1>
+                <p>لديك سؤال عن التسجيل أو البرامج أو الحياة المدرسية؟ اكتب لنا، وفريقنا سيساعدك في الوصول إلى الإجابة.
+                </p>
+                <div class="breadcrumbs"><a href="index.html">الرئيسية</a><span>／</span><span>تواصل معنا</span></div>
+            </div>
+            <div class="contact-hero-mark"><span>✳</span><small>بابنا مفتوح</small></div>
+        </section>
+        <section class="section section-light">
+            <div class="section-wrap contact-layout">
+                <div class="contact-info reveal"><span class="section-kicker">على تواصل دائم</span>
+                    <h2>نحن هنا<br><span class="text-accent">من أجلك.</span></h2>
+                    <p>سواء كنت ولي أمر، أو طالبًا، أو ترغب بالتعرّف إلى مدرستنا، يسعدنا تواصلك.</p>
+                    <div class="contact-detail"><span class="detail-icon">⌖</span>
+                        <div><b>زورونا</b>
+                            <p>شارع المعرفة، الحي التعليمي<br>صنعاء، اليمن</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span class="detail-icon">✉</span>
+                        <div><b>راسلونا</b>
+                            <p>hello@ofuq-school.example</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span class="detail-icon">◷</span>
+                        <div><b>ساعات العمل</b>
+                            <p>الأحد – الخميس<br>7:30 صباحًا – 2:30 ظهرًا</p>
+                        </div>
+                    </div>
+                    <div class="contact-note"><span>✦</span>
+                        <p>ملاحظة: بيانات العنوان والبريد هنا تجريبية، ويمكنك تعديلها لتناسب مدرستك الحقيقية.</p>
+                    </div>
+                </div>
+                <div class="form-card reveal" id="admission">
+                    <div class="form-heading"><span class="form-chip">نموذج التواصل</span>
+                        <h3>ما الذي يمكننا مساعدتك به؟</h3>
+                        <p>املأ البيانات التالية وسنكون سعداء بالتواصل معك.</p>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-row"><label>الاسم الكامل<input type="text" name="name"
+                                    placeholder="اكتب اسمك هنا" required minlength="2"></label><label>البريد
+                                الإلكتروني<input type="email" name="email" placeholder="name@example.com"
+                                    required></label></div>
+                        <div class="form-row"><label>رقم الهاتف <span class="optional">(اختياري)</span><input type="tel"
+                                    name="phone" placeholder="+967 ..."></label><label>موضوع الرسالة<select
+                                    name="subject" required>
+                                    <option value="" selected disabled>اختر الموضوع</option>
+                                    <option>التسجيل والقبول</option>
+                                    <option>البرامج والأقسام</option>
+                                    <option>الأنشطة المدرسية</option>
+                                    <option>استفسار عام</option>
+                                </select></label></div><label>رسالتك<textarea name="message" rows="5"
+                                placeholder="أخبرنا كيف نستطيع مساعدتك..." required
+                                minlength="8"></textarea></label><button class="btn btn-primary submit-btn"
+                            type="submit">إرسال الرسالة <span>↗</span></button>
+                        <p class="form-status" id="formStatus" role="status"></p><small class="form-disclaimer">هذا
+                            نموذج واجهة تجريبية؛ يحتاج ربطًا بخادم أو خدمة بريد لإرسال الرسائل فعليًا.</small>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="map-placeholder">
+            <div class="map-pattern"></div>
+            <div class="map-card"><span class="map-pin">⌖</span>
+                <div><b>أفق الإبداع</b>
+                    <p>موقعنا على خريطة المدينة</p>
+                </div><span class="map-arrow">↗</span>
+            </div><span class="map-caption">موقع توضيحي — استبدله بخريطة المدرسة الفعلية</span>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main"><a class="brand brand-footer" href="index.html"><span
+                    class="brand-mark">أ</span><span><b>أفق الإبداع</b><small>مدرسة تصنع الفرق</small></span></a>
+            <p>نؤمن أن كل طالب يحمل بداخله فكرة تستحق أن ترى النور.</p>
+            <div class="socials"><a href="#">ig</a><a href="#">f</a><a href="#">▶</a></div>
+        </div>
+        <div class="footer-bottom"><span>© <span id="year"></span> أفق الإبداع. جميع الحقوق محفوظة.</span><span>صُمّم
+                بشغف للتعلّم ✦</span>
+            <div><a href="index.html">الرئيسية</a><a href="about.html">من نحن</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
